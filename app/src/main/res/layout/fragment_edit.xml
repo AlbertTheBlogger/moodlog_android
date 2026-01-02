@@ -1,0 +1,84 @@
+<!-- app/src/main/res/layout/fragment_edit.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|start"
+        android:hint="记录今天的小确幸…"
+        android:inputType="textMultiLine|textCapSentences"
+        android:background="@null"
+        android:textSize="18sp"
+        android:textColor="@color/text_primary" />
+
+    <GridLayout
+        android:id="@+id/gridMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:columnCount="4"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_grateful"
+            style="@style/MoodButton"
+            android:text="😊\n感恩" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_energetic"
+            style="@style/MoodButton"
+            android:text="💪\n有动力" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_calm"
+            style="@style/MoodButton"
+            android:text="🌿\n平静" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_happy"
+            style="@style/MoodButton"
+            android:text="🌟\n开心" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_loved"
+            style="@style/MoodButton"
+            android:text="❤️\n被爱" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_accomplished"
+            style="@style/MoodButton"
+            android:text="🧠\n有收获" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_connected"
+            style="@style/MoodButton"
+            android:text="🤝\n有效社交" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_hopeful"
+            style="@style/MoodButton"
+            android:text="🌈\n充满希望" />
+
+    </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="保存"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorPrimary" />
+
+</LinearLayout>

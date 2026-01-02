@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">微光日记</string>
+
+    <string name="mood_grateful">感恩</string>
+    <string name="mood_energetic">有动力</string>
+    <string name="mood_calm">平静</string>
+    <string name="mood_happy">开心</string>
+    <string name="mood_loved">被爱</string>
+    <string name="mood_accomplished">有收获</string>
+    <string name="mood_connected">有效社交</string>
+    <string name="mood_hopeful">充满希望</string>
+</resources>

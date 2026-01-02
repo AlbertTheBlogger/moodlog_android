@@ -1,0 +1,12 @@
+<resources>
+    <!-- 背景色：米黄 -->
+    <color name="background">#FFF7D5</color>
+    <!-- 卡片底色 -->
+    <color name="surface">#FFFFFF</color>
+    <!-- 正文文字 -->
+    <color name="text_primary">#333333</color>
+    <!-- 副文本 -->
+    <color name="text_secondary">#666666</color>
+
+    <color name="colorPrimary">#FF9800</color>
+</resources>
