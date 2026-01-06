@@ -40,21 +40,36 @@
 ## 🚀 项目结构概览
 
 app/
+
 ├── src/main/
+
 │   ├── java/com/example/afinal/     # Java 源码
+
 │   │   ├── data/                        # 数据模型（DiaryEntry）
+
 │   │   ├── storage/                     # 数据存取逻辑（DiaryFileStorage, DateGroupUtil）
+
 │   │   ├── ui/                          # 用户界面（EditFragment, CalendarFragment, ArchiveFragment）
+
 │   │   └── MainActivity.java            # 应用入口
+
 │   ├── res/
+
 │   │   ├── values/colors.xml            # 主题颜色定义
+
 │   │   ├── layout/                      # 各种布局文件
+
 │   │   └── ...                          # 其他资源
+
 │   └── AndroidManifest.xml              # 应用配置
+
 └── build.gradle                         # 依赖与插件配置
+
 
 
 ## 📜 注意事项
 本项目仅用于 学习与教学目的，禁止直接用于商业用途。
+
 代码遵循 MIT License 开源协议。
+
 UI 设计灵感来源于 Material Design 3 Guidelines
